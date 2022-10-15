@@ -14,6 +14,9 @@
 		EDC6125E28F7724D00A3FFF9 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6125D28F7724D00A3FFF9 /* CalculatorTests.swift */; };
 		EDC6126828F7724D00A3FFF9 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6126728F7724D00A3FFF9 /* CalculatorUITests.swift */; };
 		EDC6126A28F7724D00A3FFF9 /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6126928F7724D00A3FFF9 /* CalculatorUITestsLaunchTests.swift */; };
+		EDC6127728F78A4300A3FFF9 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6127628F78A4300A3FFF9 /* CalculatorButton.swift */; };
+		EDC6127928F78DAC00A3FFF9 /* TotalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6127828F78DAC00A3FFF9 /* TotalTextView.swift */; };
+		EDC6127B28FB545100A3FFF9 /* IconDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6127A28FB545100A3FFF9 /* IconDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		EDC6126328F7724D00A3FFF9 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC6126728F7724D00A3FFF9 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		EDC6126928F7724D00A3FFF9 /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDC6127628F78A4300A3FFF9 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		EDC6127828F78DAC00A3FFF9 /* TotalTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalTextView.swift; sourceTree = "<group>"; };
+		EDC6127A28FB545100A3FFF9 /* IconDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				EDC6124C28F7723D00A3FFF9 /* CalculatorApp.swift */,
 				EDC6124E28F7723D00A3FFF9 /* ContentView.swift */,
+				EDC6127A28FB545100A3FFF9 /* IconDesign.swift */,
+				EDC6127628F78A4300A3FFF9 /* CalculatorButton.swift */,
+				EDC6127828F78DAC00A3FFF9 /* TotalTextView.swift */,
 				EDC6125028F7724D00A3FFF9 /* Assets.xcassets */,
 				EDC6125228F7724D00A3FFF9 /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC6127728F78A4300A3FFF9 /* CalculatorButton.swift in Sources */,
 				EDC6124F28F7723D00A3FFF9 /* ContentView.swift in Sources */,
+				EDC6127B28FB545100A3FFF9 /* IconDesign.swift in Sources */,
+				EDC6127928F78DAC00A3FFF9 /* TotalTextView.swift in Sources */,
 				EDC6124D28F7723D00A3FFF9 /* CalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
